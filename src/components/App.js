@@ -5,7 +5,7 @@ import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 import useVideos from '../hooks/useVideos';
 
-const App = ({}) => {
+const App = () => {
     const [selectedVideo, setSelectedVideo] = useState(null);
     const [videos, search] = useVideos('lofi hiphop');
 
